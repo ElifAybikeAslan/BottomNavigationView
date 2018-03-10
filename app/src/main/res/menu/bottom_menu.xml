@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mevcut_odalar"
+        android:enabled="true"
+        android:icon="@drawable/mevcutodalar"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/arkadaslar"
+        android:enabled="true"
+        android:icon="@drawable/arkadaslarr"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/yeni_oda"
+        android:enabled="true"
+        android:icon="@drawable/yenioda"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/siralama"
+        android:enabled="true"
+        android:icon="@drawable/siralama"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/profil"
+        android:enabled="true"
+        android:icon="@drawable/profil"
+        app:showAsAction="ifRoom"/>
+</menu>
